@@ -21,6 +21,7 @@ public class DecisionMaking {
 		}
 		else {
 			System.out.println("Condition is false.");
+		}
+		
 	}
-
 }
