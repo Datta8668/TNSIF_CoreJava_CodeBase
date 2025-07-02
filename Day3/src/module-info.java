@@ -4,5 +4,5 @@
 /**
  * 
  */
-module TNSIF_CoreJava {
+module Day3 {
 }
