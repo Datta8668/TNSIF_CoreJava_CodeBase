@@ -8,7 +8,6 @@ public class Customer {
 	
 	
 //	default constructor
-	
 	public Customer() {
 		System.out.println("Hello this is Default Constructor-------!");
 	}
