@@ -1,7 +1,7 @@
 package com.tnsif.day2;
 
 public class CharDemo {
-
+// 	main method
 	public static void main(String[] args) {
 			char ch ='a';
 			System.out.println(ch);
