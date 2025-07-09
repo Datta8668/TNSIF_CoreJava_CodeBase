@@ -23,7 +23,7 @@ public class Customer {
 		this.customerCity = customerCity;
 	}
 
-
+//	Getter Setter Method
 	public String getCustomerName() {
 		return customerName;
 	}

@@ -1,5 +1,6 @@
 package com.tnsif.day4.first;
 
+//	Encapsulation Class
 public class EncapsulationDemo {
 
 	public static void main(String[] args) {

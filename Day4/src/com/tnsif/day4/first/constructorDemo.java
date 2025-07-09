@@ -2,6 +2,7 @@ package com.tnsif.day4.first;
 import java.util.*;
 public class constructorDemo {
 
+//	constructor class
 	public static void main(String[] args) {
 		Scanner sd = new Scanner(System.in);
 	

@@ -6,6 +6,7 @@ public class OopsConceptDemo {
 	private String name;
 	private int age;
 
+//	Getter Setter Method
 	public String getName() {
 		return name;
 	}
