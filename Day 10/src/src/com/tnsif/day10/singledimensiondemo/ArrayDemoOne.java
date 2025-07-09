@@ -1,4 +1,4 @@
-package com.tnsif.day10.array1D;
+package src.com.tnsif.day10.singledimensiondemo;
 
 class ArrayOperations
 {
@@ -54,7 +54,7 @@ public class ArrayDemoOne {
 		//displaying the array 
 		ArrayOperations.printArray(a);
 		
-		//assigning va;ues in array a
+		//assigning vaues in array a
 		for(int i=0; i<a.length; i++)
 		{
 			a[i]=5*i;
@@ -78,6 +78,8 @@ public class ArrayDemoOne {
 		+"\t Even no "+ ArrayOperations.getEvenCount(b));
 	
 		System.out.println();
+		
+		
 		
 		
 
