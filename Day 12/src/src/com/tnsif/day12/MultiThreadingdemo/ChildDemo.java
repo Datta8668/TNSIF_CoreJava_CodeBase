@@ -1,5 +1,5 @@
 package src.com.tnsif.day12.MultiThreadingdemo;
-
+//	child class
 public class ChildDemo {
 
 	public static void main(String[] args) {
