@@ -1,4 +1,4 @@
-package com.tnsif.day14.ListDemo;
+package com.tnsif.day14.QueueDemo;
 
 import java.util.Iterator;
 import java.util.LinkedList;
