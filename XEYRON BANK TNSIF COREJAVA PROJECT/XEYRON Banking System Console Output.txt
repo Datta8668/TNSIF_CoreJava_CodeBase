@@ -1,0 +1,1154 @@
+✅ Database initialized successfully.
+
+----------------------------
+ WELCOME TO XEYRON BANK TNSIF 
+----------------------------
+1. Admin Login
+2. Customer Registration
+3. Customer Login
+4. Exit
+----------------------------
+Enter choice: 1
+Enter Admin Username: admi
+Enter Admin Password: admin123
+Invalid admin credentials.
+
+----------------------------
+ WELCOME TO XEYRON BANK TNSIF 
+----------------------------
+1. Admin Login
+2. Customer Registration
+3. Customer Login
+4. Exit
+----------------------------
+Enter choice: 1
+Enter Admin Username: admin
+Enter Admin Password: admin123
+
+-------- ADMIN DASHBOARD | XEYRON BANK TNSIF --------
+1. View All Customers
+2. Verify Customers
+3. Logout
+------------------------------------------------------
+Enter choice: 1
+
+-------- ADMIN DASHBOARD | XEYRON BANK TNSIF --------
+1. View All Customers
+2. Verify Customers
+3. Logout
+------------------------------------------------------
+Enter choice: 2
+Enter Customer ID to Verify: 101
+Failed (Reasons) - 
+Customer ID doesn't Exist 
+Customer Already Verified 
+Invalid Customer ID
+
+-------- ADMIN DASHBOARD | XEYRON BANK TNSIF --------
+1. View All Customers
+2. Verify Customers
+3. Logout
+------------------------------------------------------
+Enter choice: 3
+
+----------------------------
+ WELCOME TO XEYRON BANK TNSIF 
+----------------------------
+1. Admin Login
+2. Customer Registration
+3. Customer Login
+4. Exit
+----------------------------
+Enter choice: 2
+Customer ID: 101
+Name: Aayan
+Address: Ambegaon Kh, Pune 411046
+Contact: 7498464069
+Create Password: Aayan@_123
+Registration submitted. Please wait for admin verification.
+
+----------------------------
+ WELCOME TO XEYRON BANK TNSIF 
+----------------------------
+1. Admin Login
+2. Customer Registration
+3. Customer Login
+4. Exit
+----------------------------
+Enter choice: 3
+Customer ID: 101
+Password: Aayan@_123
+Account not verified by admin.
+
+----------------------------
+ WELCOME TO XEYRON BANK TNSIF 
+----------------------------
+1. Admin Login
+2. Customer Registration
+3. Customer Login
+4. Exit
+----------------------------
+Enter choice: 2
+Customer ID: 102
+Name: Prem
+Address: Lipane Wasti, Pune 411046
+Contact: 9607555366
+Create Password: Prem@_123
+Registration submitted. Please wait for admin verification.
+
+----------------------------
+ WELCOME TO XEYRON BANK TNSIF 
+----------------------------
+1. Admin Login
+2. Customer Registration
+3. Customer Login
+4. Exit
+----------------------------
+Enter choice: 1
+Enter Admin Username: admin
+Enter Admin Password: admin123
+
+-------- ADMIN DASHBOARD | XEYRON BANK TNSIF --------
+1. View All Customers
+2. Verify Customers
+3. Logout
+------------------------------------------------------
+Enter choice: 1
+Customer ID: 101, Name: Aayan, Verified: false
+Customer ID: 102, Name: Prem, Verified: false
+
+-------- ADMIN DASHBOARD | XEYRON BANK TNSIF --------
+1. View All Customers
+2. Verify Customers
+3. Logout
+------------------------------------------------------
+Enter choice: 2
+Customer ID: 101, Name: Aayan, Verified: false
+Customer ID: 102, Name: Prem, Verified: false
+Enter Customer ID to Verify: 101
+Customer verified.
+
+-------- ADMIN DASHBOARD | XEYRON BANK TNSIF --------
+1. View All Customers
+2. Verify Customers
+3. Logout
+------------------------------------------------------
+Enter choice: 1
+Customer ID: 101, Name: Aayan, Verified: true
+Customer ID: 102, Name: Prem, Verified: false
+
+-------- ADMIN DASHBOARD | XEYRON BANK TNSIF --------
+1. View All Customers
+2. Verify Customers
+3. Logout
+------------------------------------------------------
+Enter choice: 2
+Customer ID: 102, Name: Prem, Verified: false
+Enter Customer ID to Verify: 103
+Failed (Reasons) - 
+Customer ID doesn't Exist 
+Customer Already Verified 
+Invalid Customer ID
+
+-------- ADMIN DASHBOARD | XEYRON BANK TNSIF --------
+1. View All Customers
+2. Verify Customers
+3. Logout
+------------------------------------------------------
+Enter choice: 2
+Customer ID: 102, Name: Prem, Verified: false
+Enter Customer ID to Verify: 102
+Customer verified.
+
+-------- ADMIN DASHBOARD | XEYRON BANK TNSIF --------
+1. View All Customers
+2. Verify Customers
+3. Logout
+------------------------------------------------------
+Enter choice: 1
+Customer ID: 101, Name: Aayan, Verified: true
+Customer ID: 102, Name: Prem, Verified: true
+
+-------- ADMIN DASHBOARD | XEYRON BANK TNSIF --------
+1. View All Customers
+2. Verify Customers
+3. Logout
+------------------------------------------------------
+Enter choice: 3
+
+----------------------------
+ WELCOME TO XEYRON BANK TNSIF 
+----------------------------
+1. Admin Login
+2. Customer Registration
+3. Customer Login
+4. Exit
+----------------------------
+Enter choice: 3
+Customer ID: 101
+Password: Aayan@_123
+
+-------- CUSTOMER DASHBOARD | XEYRON BANK TNSIF --------
+1. Create Account
+2. View My Accounts
+3. Add Beneficiary
+4. View My Beneficiaries
+5. Deposit
+6. Withdraw
+7. Transfer
+8. View Transactions
+9. Logout
+---------------------------------------------------------
+Enter choice: 2
+
+-------- CUSTOMER DASHBOARD | XEYRON BANK TNSIF --------
+1. Create Account
+2. View My Accounts
+3. Add Beneficiary
+4. View My Beneficiaries
+5. Deposit
+6. Withdraw
+7. Transfer
+8. View Transactions
+9. Logout
+---------------------------------------------------------
+Enter choice: 1
+Account ID: 10120051
+Type (Saving/Current): Savings
+Initial Balance: 720000
+Account created.
+
+-------- CUSTOMER DASHBOARD | XEYRON BANK TNSIF --------
+1. Create Account
+2. View My Accounts
+3. Add Beneficiary
+4. View My Beneficiaries
+5. Deposit
+6. Withdraw
+7. Transfer
+8. View Transactions
+9. Logout
+---------------------------------------------------------
+Enter choice: 1
+Account ID: 10120052
+Type (Saving/Current): Saving
+Initial Balance: 435000
+Account created.
+
+-------- CUSTOMER DASHBOARD | XEYRON BANK TNSIF --------
+1. Create Account
+2. View My Accounts
+3. Add Beneficiary
+4. View My Beneficiaries
+5. Deposit
+6. Withdraw
+7. Transfer
+8. View Transactions
+9. Logout
+---------------------------------------------------------
+Enter choice: 1
+Account ID: 101
+Type (Saving/Current): Saving
+Initial Balance: 425550
+Account created.
+
+-------- CUSTOMER DASHBOARD | XEYRON BANK TNSIF --------
+1. Create Account
+2. View My Accounts
+3. Add Beneficiary
+4. View My Beneficiaries
+5. Deposit
+6. Withdraw
+7. Transfer
+8. View Transactions
+9. Logout
+---------------------------------------------------------
+Enter choice: 1
+Account ID: 10120051
+Type (Saving/Current): Saving
+Initial Balance: 9800
+Account ID already exists.
+
+-------- CUSTOMER DASHBOARD | XEYRON BANK TNSIF --------
+1. Create Account
+2. View My Accounts
+3. Add Beneficiary
+4. View My Beneficiaries
+5. Deposit
+6. Withdraw
+7. Transfer
+8. View Transactions
+9. Logout
+---------------------------------------------------------
+Enter choice: 2
+Account ID: 101, Customer ID: 101, Type: Saving, Balance: 425550.0
+Account ID: 10120051, Customer ID: 101, Type: Savings, Balance: 720000.0
+Account ID: 10120052, Customer ID: 101, Type: Saving, Balance: 435000.0
+
+-------- CUSTOMER DASHBOARD | XEYRON BANK TNSIF --------
+1. Create Account
+2. View My Accounts
+3. Add Beneficiary
+4. View My Beneficiaries
+5. Deposit
+6. Withdraw
+7. Transfer
+8. View Transactions
+9. Logout
+---------------------------------------------------------
+Enter choice: 3
+Beneficiary ID: 10101
+Name: Prem
+Account Number: 10220041
+Bank Details: XEYRON BANK
+Beneficiary added.
+
+-------- CUSTOMER DASHBOARD | XEYRON BANK TNSIF --------
+1. Create Account
+2. View My Accounts
+3. Add Beneficiary
+4. View My Beneficiaries
+5. Deposit
+6. Withdraw
+7. Transfer
+8. View Transactions
+9. Logout
+---------------------------------------------------------
+Enter choice: 4
+Beneficiary ID: 10101, Name: Prem, Account No: 10220041, Bank: XEYRON BANK
+
+-------- CUSTOMER DASHBOARD | XEYRON BANK TNSIF --------
+1. Create Account
+2. View My Accounts
+3. Add Beneficiary
+4. View My Beneficiaries
+5. Deposit
+6. Withdraw
+7. Transfer
+8. View Transactions
+9. Logout
+---------------------------------------------------------
+Enter choice: 5
+Account ID: 10120051
+Amount: 5000
+Deposit successful.
+
+-------- CUSTOMER DASHBOARD | XEYRON BANK TNSIF --------
+1. Create Account
+2. View My Accounts
+3. Add Beneficiary
+4. View My Beneficiaries
+5. Deposit
+6. Withdraw
+7. Transfer
+8. View Transactions
+9. Logout
+---------------------------------------------------------
+Enter choice: 10120052
+Invalid choice.
+
+-------- CUSTOMER DASHBOARD | XEYRON BANK TNSIF --------
+1. Create Account
+2. View My Accounts
+3. Add Beneficiary
+4. View My Beneficiaries
+5. Deposit
+6. Withdraw
+7. Transfer
+8. View Transactions
+9. Logout
+---------------------------------------------------------
+Enter choice: 5
+Account ID: 1012005
+Amount: 4500
+Deposit failed.
+
+-------- CUSTOMER DASHBOARD | XEYRON BANK TNSIF --------
+1. Create Account
+2. View My Accounts
+3. Add Beneficiary
+4. View My Beneficiaries
+5. Deposit
+6. Withdraw
+7. Transfer
+8. View Transactions
+9. Logout
+---------------------------------------------------------
+Enter choice: 5
+Account ID: 10120052
+Amount: 2000
+Deposit successful.
+
+-------- CUSTOMER DASHBOARD | XEYRON BANK TNSIF --------
+1. Create Account
+2. View My Accounts
+3. Add Beneficiary
+4. View My Beneficiaries
+5. Deposit
+6. Withdraw
+7. Transfer
+8. View Transactions
+9. Logout
+---------------------------------------------------------
+Enter choice: 2
+Account ID: 101, Customer ID: 101, Type: Saving, Balance: 425550.0
+Account ID: 10120051, Customer ID: 101, Type: Savings, Balance: 725000.0
+Account ID: 10120052, Customer ID: 101, Type: Saving, Balance: 437000.0
+
+-------- CUSTOMER DASHBOARD | XEYRON BANK TNSIF --------
+1. Create Account
+2. View My Accounts
+3. Add Beneficiary
+4. View My Beneficiaries
+5. Deposit
+6. Withdraw
+7. Transfer
+8. View Transactions
+9. Logout
+---------------------------------------------------------
+Enter choice: 6
+Account ID: 10120051
+Amount: 4000
+Withdrawal successful.
+
+-------- CUSTOMER DASHBOARD | XEYRON BANK TNSIF --------
+1. Create Account
+2. View My Accounts
+3. Add Beneficiary
+4. View My Beneficiaries
+5. Deposit
+6. Withdraw
+7. Transfer
+8. View Transactions
+9. Logout
+---------------------------------------------------------
+Enter choice: 6
+Account ID: 10120052
+Amount: 5000
+Withdrawal successful.
+
+-------- CUSTOMER DASHBOARD | XEYRON BANK TNSIF --------
+1. Create Account
+2. View My Accounts
+3. Add Beneficiary
+4. View My Beneficiaries
+5. Deposit
+6. Withdraw
+7. Transfer
+8. View Transactions
+9. Logout
+---------------------------------------------------------
+Enter choice: 2
+Account ID: 101, Customer ID: 101, Type: Saving, Balance: 425550.0
+Account ID: 10120051, Customer ID: 101, Type: Savings, Balance: 721000.0
+Account ID: 10120052, Customer ID: 101, Type: Saving, Balance: 432000.0
+
+-------- CUSTOMER DASHBOARD | XEYRON BANK TNSIF --------
+1. Create Account
+2. View My Accounts
+3. Add Beneficiary
+4. View My Beneficiaries
+5. Deposit
+6. Withdraw
+7. Transfer
+8. View Transactions
+9. Logout
+---------------------------------------------------------
+Enter choice: 8
+Account ID: 10120051
+Transaction ID: 1, Type: Deposit, Amount: 5000.0, Timestamp: 2025-07-14T23:12:55.993966100
+Transaction ID: 3, Type: Withdrawal, Amount: 4000.0, Timestamp: 2025-07-14T23:12:55.995960800
+
+-------- CUSTOMER DASHBOARD | XEYRON BANK TNSIF --------
+1. Create Account
+2. View My Accounts
+3. Add Beneficiary
+4. View My Beneficiaries
+5. Deposit
+6. Withdraw
+7. Transfer
+8. View Transactions
+9. Logout
+---------------------------------------------------------
+Enter choice: 8
+Account ID: 1012005
+
+-------- CUSTOMER DASHBOARD | XEYRON BANK TNSIF --------
+1. Create Account
+2. View My Accounts
+3. Add Beneficiary
+4. View My Beneficiaries
+5. Deposit
+6. Withdraw
+7. Transfer
+8. View Transactions
+9. Logout
+---------------------------------------------------------
+Enter choice: 2
+Account ID: 101, Customer ID: 101, Type: Saving, Balance: 425550.0
+Account ID: 10120051, Customer ID: 101, Type: Savings, Balance: 721000.0
+Account ID: 10120052, Customer ID: 101, Type: Saving, Balance: 432000.0
+
+-------- CUSTOMER DASHBOARD | XEYRON BANK TNSIF --------
+1. Create Account
+2. View My Accounts
+3. Add Beneficiary
+4. View My Beneficiaries
+5. Deposit
+6. Withdraw
+7. Transfer
+8. View Transactions
+9. Logout
+---------------------------------------------------------
+Enter choice: 9
+
+----------------------------
+ WELCOME TO XEYRON BANK TNSIF 
+----------------------------
+1. Admin Login
+2. Customer Registration
+3. Customer Login
+4. Exit
+----------------------------
+Enter choice: 3
+Customer ID: 102
+Password: Prem@_12
+Invalid credentials.
+
+----------------------------
+ WELCOME TO XEYRON BANK TNSIF 
+----------------------------
+1. Admin Login
+2. Customer Registration
+3. Customer Login
+4. Exit
+----------------------------
+Enter choice: 3
+Customer ID: 102
+Password: Prem@_123
+
+-------- CUSTOMER DASHBOARD | XEYRON BANK TNSIF --------
+1. Create Account
+2. View My Accounts
+3. Add Beneficiary
+4. View My Beneficiaries
+5. Deposit
+6. Withdraw
+7. Transfer
+8. View Transactions
+9. Logout
+---------------------------------------------------------
+Enter choice: 2
+
+-------- CUSTOMER DASHBOARD | XEYRON BANK TNSIF --------
+1. Create Account
+2. View My Accounts
+3. Add Beneficiary
+4. View My Beneficiaries
+5. Deposit
+6. Withdraw
+7. Transfer
+8. View Transactions
+9. Logout
+---------------------------------------------------------
+Enter choice: 1
+Account ID: 10220041
+Type (Saving/Current): Saving
+Initial Balance: 680000
+Account created.
+
+-------- CUSTOMER DASHBOARD | XEYRON BANK TNSIF --------
+1. Create Account
+2. View My Accounts
+3. Add Beneficiary
+4. View My Beneficiaries
+5. Deposit
+6. Withdraw
+7. Transfer
+8. View Transactions
+9. Logout
+---------------------------------------------------------
+Enter choice: 1
+Account ID: 10220041
+Type (Saving/Current): Saving
+Initial Balance: 52000
+Account ID already exists.
+
+-------- CUSTOMER DASHBOARD | XEYRON BANK TNSIF --------
+1. Create Account
+2. View My Accounts
+3. Add Beneficiary
+4. View My Beneficiaries
+5. Deposit
+6. Withdraw
+7. Transfer
+8. View Transactions
+9. Logout
+---------------------------------------------------------
+Enter choice: 1
+Account ID: 10120051
+Type (Saving/Current): Saving
+Initial Balance: 41000
+Account ID already exists.
+
+-------- CUSTOMER DASHBOARD | XEYRON BANK TNSIF --------
+1. Create Account
+2. View My Accounts
+3. Add Beneficiary
+4. View My Beneficiaries
+5. Deposit
+6. Withdraw
+7. Transfer
+8. View Transactions
+9. Logout
+---------------------------------------------------------
+Enter choice: 1
+Account ID: 10220042
+Type (Saving/Current): Current
+Initial Balance: 210000
+Account created.
+
+-------- CUSTOMER DASHBOARD | XEYRON BANK TNSIF --------
+1. Create Account
+2. View My Accounts
+3. Add Beneficiary
+4. View My Beneficiaries
+5. Deposit
+6. Withdraw
+7. Transfer
+8. View Transactions
+9. Logout
+---------------------------------------------------------
+Enter choice: 2
+Account ID: 10220041, Customer ID: 102, Type: Saving, Balance: 680000.0
+Account ID: 10220042, Customer ID: 102, Type: Current, Balance: 210000.0
+
+-------- CUSTOMER DASHBOARD | XEYRON BANK TNSIF --------
+1. Create Account
+2. View My Accounts
+3. Add Beneficiary
+4. View My Beneficiaries
+5. Deposit
+6. Withdraw
+7. Transfer
+8. View Transactions
+9. Logout
+---------------------------------------------------------
+Enter choice: 3
+Beneficiary ID: 10201
+Name: Aayan
+Account Number: 10120051
+Bank Details: XEYRON BANK
+Beneficiary added.
+
+-------- CUSTOMER DASHBOARD | XEYRON BANK TNSIF --------
+1. Create Account
+2. View My Accounts
+3. Add Beneficiary
+4. View My Beneficiaries
+5. Deposit
+6. Withdraw
+7. Transfer
+8. View Transactions
+9. Logout
+---------------------------------------------------------
+Enter choice: 2
+Account ID: 10220041, Customer ID: 102, Type: Saving, Balance: 680000.0
+Account ID: 10220042, Customer ID: 102, Type: Current, Balance: 210000.0
+
+-------- CUSTOMER DASHBOARD | XEYRON BANK TNSIF --------
+1. Create Account
+2. View My Accounts
+3. Add Beneficiary
+4. View My Beneficiaries
+5. Deposit
+6. Withdraw
+7. Transfer
+8. View Transactions
+9. Logout
+---------------------------------------------------------
+Enter choice: 4
+Beneficiary ID: 10201, Name: Aayan, Account No: 10120051, Bank: XEYRON BANK
+
+-------- CUSTOMER DASHBOARD | XEYRON BANK TNSIF --------
+1. Create Account
+2. View My Accounts
+3. Add Beneficiary
+4. View My Beneficiaries
+5. Deposit
+6. Withdraw
+7. Transfer
+8. View Transactions
+9. Logout
+---------------------------------------------------------
+Enter choice: 5
+Account ID: 10220041
+Amount: 2000
+Deposit successful.
+
+-------- CUSTOMER DASHBOARD | XEYRON BANK TNSIF --------
+1. Create Account
+2. View My Accounts
+3. Add Beneficiary
+4. View My Beneficiaries
+5. Deposit
+6. Withdraw
+7. Transfer
+8. View Transactions
+9. Logout
+---------------------------------------------------------
+Enter choice: 10220042
+Invalid choice.
+
+-------- CUSTOMER DASHBOARD | XEYRON BANK TNSIF --------
+1. Create Account
+2. View My Accounts
+3. Add Beneficiary
+4. View My Beneficiaries
+5. Deposit
+6. Withdraw
+7. Transfer
+8. View Transactions
+9. Logout
+---------------------------------------------------------
+Enter choice: 5
+Account ID: 10220042
+Amount: 10000
+Deposit successful.
+
+-------- CUSTOMER DASHBOARD | XEYRON BANK TNSIF --------
+1. Create Account
+2. View My Accounts
+3. Add Beneficiary
+4. View My Beneficiaries
+5. Deposit
+6. Withdraw
+7. Transfer
+8. View Transactions
+9. Logout
+---------------------------------------------------------
+Enter choice: 2
+Account ID: 10220041, Customer ID: 102, Type: Saving, Balance: 682000.0
+Account ID: 10220042, Customer ID: 102, Type: Current, Balance: 220000.0
+
+-------- CUSTOMER DASHBOARD | XEYRON BANK TNSIF --------
+1. Create Account
+2. View My Accounts
+3. Add Beneficiary
+4. View My Beneficiaries
+5. Deposit
+6. Withdraw
+7. Transfer
+8. View Transactions
+9. Logout
+---------------------------------------------------------
+Enter choice: 5
+Account ID: 10120051
+Amount: 1000
+Deposit failed.
+
+-------- CUSTOMER DASHBOARD | XEYRON BANK TNSIF --------
+1. Create Account
+2. View My Accounts
+3. Add Beneficiary
+4. View My Beneficiaries
+5. Deposit
+6. Withdraw
+7. Transfer
+8. View Transactions
+9. Logout
+---------------------------------------------------------
+Enter choice: 6
+Account ID: 10120051
+Amount: 5000
+Withdrawal failed.
+
+-------- CUSTOMER DASHBOARD | XEYRON BANK TNSIF --------
+1. Create Account
+2. View My Accounts
+3. Add Beneficiary
+4. View My Beneficiaries
+5. Deposit
+6. Withdraw
+7. Transfer
+8. View Transactions
+9. Logout
+---------------------------------------------------------
+Enter choice: 6
+Account ID: 10220041
+Amount: 2000
+Withdrawal successful.
+
+-------- CUSTOMER DASHBOARD | XEYRON BANK TNSIF --------
+1. Create Account
+2. View My Accounts
+3. Add Beneficiary
+4. View My Beneficiaries
+5. Deposit
+6. Withdraw
+7. Transfer
+8. View Transactions
+9. Logout
+---------------------------------------------------------
+Enter choice: 6
+Account ID: 10220042
+Amount: 500
+Withdrawal successful.
+
+-------- CUSTOMER DASHBOARD | XEYRON BANK TNSIF --------
+1. Create Account
+2. View My Accounts
+3. Add Beneficiary
+4. View My Beneficiaries
+5. Deposit
+6. Withdraw
+7. Transfer
+8. View Transactions
+9. Logout
+---------------------------------------------------------
+Enter choice: 2
+Account ID: 10220041, Customer ID: 102, Type: Saving, Balance: 680000.0
+Account ID: 10220042, Customer ID: 102, Type: Current, Balance: 219500.0
+
+-------- CUSTOMER DASHBOARD | XEYRON BANK TNSIF --------
+1. Create Account
+2. View My Accounts
+3. Add Beneficiary
+4. View My Beneficiaries
+5. Deposit
+6. Withdraw
+7. Transfer
+8. View Transactions
+9. Logout
+---------------------------------------------------------
+Enter choice: 8
+Account ID: 10220041
+Transaction ID: 5, Type: Deposit, Amount: 2000.0, Timestamp: 2025-07-14T23:19:26.554375
+Transaction ID: 7, Type: Withdrawal, Amount: 2000.0, Timestamp: 2025-07-14T23:19:26.554375
+
+-------- CUSTOMER DASHBOARD | XEYRON BANK TNSIF --------
+1. Create Account
+2. View My Accounts
+3. Add Beneficiary
+4. View My Beneficiaries
+5. Deposit
+6. Withdraw
+7. Transfer
+8. View Transactions
+9. Logout
+---------------------------------------------------------
+Enter choice: 8
+Account ID: 10220042
+Transaction ID: 6, Type: Deposit, Amount: 10000.0, Timestamp: 2025-07-14T23:19:34.580142400
+Transaction ID: 8, Type: Withdrawal, Amount: 500.0, Timestamp: 2025-07-14T23:19:34.580142400
+
+-------- CUSTOMER DASHBOARD | XEYRON BANK TNSIF --------
+1. Create Account
+2. View My Accounts
+3. Add Beneficiary
+4. View My Beneficiaries
+5. Deposit
+6. Withdraw
+7. Transfer
+8. View Transactions
+9. Logout
+---------------------------------------------------------
+Enter choice: 2
+Account ID: 10220041, Customer ID: 102, Type: Saving, Balance: 680000.0
+Account ID: 10220042, Customer ID: 102, Type: Current, Balance: 219500.0
+
+-------- CUSTOMER DASHBOARD | XEYRON BANK TNSIF --------
+1. Create Account
+2. View My Accounts
+3. Add Beneficiary
+4. View My Beneficiaries
+5. Deposit
+6. Withdraw
+7. Transfer
+8. View Transactions
+9. Logout
+---------------------------------------------------------
+Enter choice: 7
+From Account ID: 10220041
+To Account ID: 10120051
+Amount: 5000
+Transfer successful.
+
+-------- CUSTOMER DASHBOARD | XEYRON BANK TNSIF --------
+1. Create Account
+2. View My Accounts
+3. Add Beneficiary
+4. View My Beneficiaries
+5. Deposit
+6. Withdraw
+7. Transfer
+8. View Transactions
+9. Logout
+---------------------------------------------------------
+Enter choice: 9
+
+----------------------------
+ WELCOME TO XEYRON BANK TNSIF 
+----------------------------
+1. Admin Login
+2. Customer Registration
+3. Customer Login
+4. Exit
+----------------------------
+Enter choice: 3
+Customer ID: 101
+Password: Aayan@_123
+
+-------- CUSTOMER DASHBOARD | XEYRON BANK TNSIF --------
+1. Create Account
+2. View My Accounts
+3. Add Beneficiary
+4. View My Beneficiaries
+5. Deposit
+6. Withdraw
+7. Transfer
+8. View Transactions
+9. Logout
+---------------------------------------------------------
+Enter choice: 2
+Account ID: 101, Customer ID: 101, Type: Saving, Balance: 425550.0
+Account ID: 10120051, Customer ID: 101, Type: Savings, Balance: 726000.0
+Account ID: 10120052, Customer ID: 101, Type: Saving, Balance: 432000.0
+
+-------- CUSTOMER DASHBOARD | XEYRON BANK TNSIF --------
+1. Create Account
+2. View My Accounts
+3. Add Beneficiary
+4. View My Beneficiaries
+5. Deposit
+6. Withdraw
+7. Transfer
+8. View Transactions
+9. Logout
+---------------------------------------------------------
+Enter choice: 
+
+
+
+
+
+OUTPUT AFTER ADMIN SECTION UPDATE (Added View Customer Details) - 
+
+
+✅ Database initialized successfully.
+
+----------------------------
+ WELCOME TO XEYRON BANK TNSIF 
+----------------------------
+1. Admin Login
+2. Customer Registration
+3. Customer Login
+4. Exit
+----------------------------
+Enter choice: 1
+Enter Admin Username: admin
+Enter Admin Password: admin123
+
+-------- ADMIN DASHBOARD | XEYRON BANK TNSIF --------
+1. View All Customers
+2. Verify Customers
+3. View Customer Details
+4. Logout
+------------------------------------------------------
+Enter choice: 3
+
+Available Customers:
+ID: 101 | Name: Aayan
+ID: 102 | Name: Prem
+Enter Customer ID to View Details: 101
+
+--- Customer Details ---
+Customer ID: 101, Name: Aayan, Verified: true
+
+--- Accounts ---
+Account ID: 101, Customer ID: 101, Type: Saving, Balance: 425550.0
+Account ID: 10120051, Customer ID: 101, Type: Savings, Balance: 726000.0
+Account ID: 10120052, Customer ID: 101, Type: Saving, Balance: 432000.0
+
+--- Beneficiaries ---
+Beneficiary ID: 10101, Name: Prem, Account No: 10220041, Bank: XEYRON BANK
+
+--- Transactions ---
+Select Transaction Type to View: 1. Deposit  2. Withdrawal
+Choice: 1
+Transaction ID: 1, Type: Deposit, Amount: 5000.0, Timestamp: 2025-07-15T11:54:38.336575
+Transaction ID: 2, Type: Deposit, Amount: 2000.0, Timestamp: 2025-07-15T11:54:38.338573900
+
+-------- ADMIN DASHBOARD | XEYRON BANK TNSIF --------
+1. View All Customers
+2. Verify Customers
+3. View Customer Details
+4. Logout
+------------------------------------------------------
+Enter choice: 3
+
+Available Customers:
+ID: 101 | Name: Aayan
+ID: 102 | Name: Prem
+Enter Customer ID to View Details: 101
+
+--- Customer Details ---
+Customer ID: 101, Name: Aayan, Verified: true
+
+--- Accounts ---
+Account ID: 101, Customer ID: 101, Type: Saving, Balance: 425550.0
+Account ID: 10120051, Customer ID: 101, Type: Savings, Balance: 726000.0
+Account ID: 10120052, Customer ID: 101, Type: Saving, Balance: 432000.0
+
+--- Beneficiaries ---
+Beneficiary ID: 10101, Name: Prem, Account No: 10220041, Bank: XEYRON BANK
+
+--- Transactions ---
+Select Transaction Type to View: 1. Deposit  2. Withdrawal
+Choice: 2
+Transaction ID: 3, Type: Withdrawal, Amount: 4000.0, Timestamp: 2025-07-15T11:54:43.790924
+Transaction ID: 4, Type: Withdrawal, Amount: 5000.0, Timestamp: 2025-07-15T11:54:43.790924
+
+-------- ADMIN DASHBOARD | XEYRON BANK TNSIF --------
+1. View All Customers
+2. Verify Customers
+3. View Customer Details
+4. Logout
+------------------------------------------------------
+Enter choice: 4
+
+----------------------------
+ WELCOME TO XEYRON BANK TNSIF 
+----------------------------
+1. Admin Login
+2. Customer Registration
+3. Customer Login
+4. Exit
+----------------------------
+Enter choice: 2
+Customer ID: 103
+Name: Datta
+Address: D Y Patil, Talegaon 410507
+Contact: 9854752100
+Create Password: Datta@_123
+Registration submitted. Please wait for admin verification.
+
+----------------------------
+ WELCOME TO XEYRON BANK TNSIF 
+----------------------------
+1. Admin Login
+2. Customer Registration
+3. Customer Login
+4. Exit
+----------------------------
+Enter choice: 1
+Enter Admin Username: admin
+Enter Admin Password: admin123
+
+-------- ADMIN DASHBOARD | XEYRON BANK TNSIF --------
+1. View All Customers
+2. Verify Customers
+3. View Customer Details
+4. Logout
+------------------------------------------------------
+Enter choice: 1
+Customer ID: 101, Name: Aayan, Verified: true
+Customer ID: 102, Name: Prem, Verified: true
+Customer ID: 103, Name: Datta, Verified: false
+
+-------- ADMIN DASHBOARD | XEYRON BANK TNSIF --------
+1. View All Customers
+2. Verify Customers
+3. View Customer Details
+4. Logout
+------------------------------------------------------
+Enter choice: 2
+Customer ID: 103, Name: Datta, Verified: false
+Enter Customer ID to Verify: 103
+Customer verified.
+
+-------- ADMIN DASHBOARD | XEYRON BANK TNSIF --------
+1. View All Customers
+2. Verify Customers
+3. View Customer Details
+4. Logout
+------------------------------------------------------
+Enter choice: 1
+Customer ID: 101, Name: Aayan, Verified: true
+Customer ID: 102, Name: Prem, Verified: true
+Customer ID: 103, Name: Datta, Verified: true
+
+-------- ADMIN DASHBOARD | XEYRON BANK TNSIF --------
+1. View All Customers
+2. Verify Customers
+3. View Customer Details
+4. Logout
+------------------------------------------------------
+Enter choice: 3
+
+Available Customers:
+ID: 101 | Name: Aayan
+ID: 102 | Name: Prem
+ID: 103 | Name: Datta
+Enter Customer ID to View Details: 103
+
+--- Customer Details ---
+Customer ID: 103, Name: Datta, Verified: true
+
+--- Accounts ---
+No accounts found.
+
+--- Beneficiaries ---
+No beneficiaries found.
+
+--- Transactions ---
+Select Transaction Type to View: 1. Deposit  2. Withdrawal
+Choice: 1
+No transactions of type Deposit found.
+
+-------- ADMIN DASHBOARD | XEYRON BANK TNSIF --------
+1. View All Customers
+2. Verify Customers
+3. View Customer Details
+4. Logout
+------------------------------------------------------
+Enter choice: 3
+
+Available Customers:
+ID: 101 | Name: Aayan
+ID: 102 | Name: Prem
+ID: 103 | Name: Datta
+Enter Customer ID to View Details: 103
+
+--- Customer Details ---
+Customer ID: 103, Name: Datta, Verified: true
+
+--- Accounts ---
+No accounts found.
+
+--- Beneficiaries ---
+No beneficiaries found.
+
+--- Transactions ---
+Select Transaction Type to View: 1. Deposit  2. Withdrawal
+Choice: 2
+No transactions of type Withdrawal found.
+
+-------- ADMIN DASHBOARD | XEYRON BANK TNSIF --------
+1. View All Customers
+2. Verify Customers
+3. View Customer Details
+4. Logout
+------------------------------------------------------
+Enter choice: 4
+
+----------------------------
+ WELCOME TO XEYRON BANK TNSIF 
+----------------------------
+1. Admin Login
+2. Customer Registration
+3. Customer Login
+4. Exit
+----------------------------
+Enter choice: 
+

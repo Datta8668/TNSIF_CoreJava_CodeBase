@@ -1,0 +1,136 @@
+Enter password: *******
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 13
+Server version: 8.0.42 MySQL Community Server - GPL
+
+Copyright (c) 2000, 2025, Oracle and/or its affiliates.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> show database;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'database' at line 1
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| bankingsystemdb    |
+| information_schema |
+| mysql              |
+| performance_schema |
+| sys                |
++--------------------+
+5 rows in set (0.02 sec)
+
+mysql> use bankingsystemdb;
+Database changed
+mysql> show tables;
++---------------------------+
+| Tables_in_bankingsystemdb |
++---------------------------+
+| accounts                  |
+| beneficiaries             |
+| customers                 |
+| transactions              |
++---------------------------+
+4 rows in set (0.00 sec)
+
+mysql> desc accounts;
++-------------+-------------+------+-----+---------+-------+
+| Field       | Type        | Null | Key | Default | Extra |
++-------------+-------------+------+-----+---------+-------+
+| account_id  | int         | NO   | PRI | NULL    |       |
+| customer_id | int         | YES  | MUL | NULL    |       |
+| type        | varchar(20) | YES  |     | NULL    |       |
+| balance     | double      | YES  |     | NULL    |       |
++-------------+-------------+------+-----+---------+-------+
+4 rows in set (0.03 sec)
+
+mysql> desc beneficiaries;
++----------------+--------------+------+-----+---------+-------+
+| Field          | Type         | Null | Key | Default | Extra |
++----------------+--------------+------+-----+---------+-------+
+| beneficiary_id | int          | NO   | PRI | NULL    |       |
+| customer_id    | int          | YES  | MUL | NULL    |       |
+| name           | varchar(100) | YES  |     | NULL    |       |
+| account_number | int          | YES  |     | NULL    |       |
+| bank_details   | varchar(100) | YES  |     | NULL    |       |
++----------------+--------------+------+-----+---------+-------+
+5 rows in set (0.00 sec)
+
+mysql> desc customers;
++-------------+--------------+------+-----+---------+-------+
+| Field       | Type         | Null | Key | Default | Extra |
++-------------+--------------+------+-----+---------+-------+
+| customer_id | int          | NO   | PRI | NULL    |       |
+| name        | varchar(100) | YES  |     | NULL    |       |
+| address     | varchar(500) | YES  |     | NULL    |       |
+| contact     | varchar(50)  | YES  |     | NULL    |       |
+| password    | varchar(100) | YES  |     | NULL    |       |
+| verified    | tinyint(1)   | YES  |     | NULL    |       |
++-------------+--------------+------+-----+---------+-------+
+6 rows in set (0.00 sec)
+
+mysql> desc transactions;
++----------------+-------------+------+-----+---------+----------------+
+| Field          | Type        | Null | Key | Default | Extra          |
++----------------+-------------+------+-----+---------+----------------+
+| transaction_id | int         | NO   | PRI | NULL    | auto_increment |
+| account_id     | int         | YES  | MUL | NULL    |                |
+| type           | varchar(20) | YES  |     | NULL    |                |
+| amount         | double      | YES  |     | NULL    |                |
+| timestamp      | timestamp   | YES  |     | NULL    |                |
++----------------+-------------+------+-----+---------+----------------+
+5 rows in set (0.00 sec)
+
+mysql> select * from customers;
++-------------+-------+----------------------------+------------+------------+----------+
+| customer_id | name  | address                    | contact    | password   | verified |
++-------------+-------+----------------------------+------------+------------+----------+
+|         101 | Aayan | Ambegaon Kh, Pune 411046   | 7498464069 | Aayan@_123 |        1 |
+|         102 | Prem  | Lipane Wasti, Pune 411046  | 9607555366 | Prem@_123  |        1 |
+|         103 | Datta | D Y Patil, Talegaon 410507 | 9854752100 | Datta@_123 |        1 |
++-------------+-------+----------------------------+------------+------------+----------+
+3 rows in set (0.00 sec)
+
+mysql> select * from beneficiaries;
++----------------+-------------+-------+----------------+--------------+
+| beneficiary_id | customer_id | name  | account_number | bank_details |
++----------------+-------------+-------+----------------+--------------+
+|          10101 |         101 | Prem  |       10220041 | XEYRON BANK  |
+|          10201 |         102 | Aayan |       10120051 | XEYRON BANK  |
++----------------+-------------+-------+----------------+--------------+
+2 rows in set (0.00 sec)
+
+mysql> select * from accounts;
++------------+-------------+---------+---------+
+| account_id | customer_id | type    | balance |
++------------+-------------+---------+---------+
+|        101 |         101 | Saving  |  425550 |
+|   10120051 |         101 | Savings |  726000 |
+|   10120052 |         101 | Saving  |  432000 |
+|   10220041 |         102 | Saving  |  675000 |
+|   10220042 |         102 | Current |  219500 |
++------------+-------------+---------+---------+
+5 rows in set (0.00 sec)
+
+mysql> select * from transactions;
++----------------+------------+------------+--------+-----------+
+| transaction_id | account_id | type       | amount | timestamp |
++----------------+------------+------------+--------+-----------+
+|              1 |   10120051 | Deposit    |   5000 | NULL      |
+|              2 |   10120052 | Deposit    |   2000 | NULL      |
+|              3 |   10120051 | Withdrawal |   4000 | NULL      |
+|              4 |   10120052 | Withdrawal |   5000 | NULL      |
+|              5 |   10220041 | Deposit    |   2000 | NULL      |
+|              6 |   10220042 | Deposit    |  10000 | NULL      |
+|              7 |   10220041 | Withdrawal |   2000 | NULL      |
+|              8 |   10220042 | Withdrawal |    500 | NULL      |
+|              9 |   10220041 | Transfer   |   5000 | NULL      |
++----------------+------------+------------+--------+-----------+
+9 rows in set (0.00 sec)
+
+mysql>
