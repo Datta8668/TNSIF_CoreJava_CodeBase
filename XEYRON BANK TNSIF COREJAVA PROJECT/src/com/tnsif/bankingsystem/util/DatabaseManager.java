@@ -9,8 +9,8 @@ import java.sql.Statement;
 public class DatabaseManager {
 
     private static final String URL = "jdbc:mysql://localhost:3306/bankingsystemdb";
-    private static final String USER = "bankadmin";
-    private static final String PASSWORD = "bankadminpass123";
+    private static final String USER = "root";
+    private static final String PASSWORD = "Dattatray";
 
     private static Connection connection;
 
