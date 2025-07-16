@@ -6,7 +6,7 @@ public class LinkedHashMapDemo {
 
 	public static void main(String[] args) {
 		
-		LinkedHashMap ht=new LinkedHashMap();
+		LinkedHashMap ht = new LinkedHashMap();
 		ht.put(101, 1000);
 		ht.put(1012, 23.34);
 		ht.put(203, "Pune");
