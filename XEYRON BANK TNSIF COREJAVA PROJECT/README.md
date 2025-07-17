@@ -63,13 +63,12 @@ If you don’t have MySQL installed:
 1. Create a database:
     CREATE DATABASE bankingsystemdb;
 
-2. Create a dedicated MySQL user:
+2. Use the database: USE bankingsystemdb;
+
+3. Create a dedicated MySQL user:
     CREATE USER 'bankadmin'@'localhost' IDENTIFIED BY 'bankadminpass123';
     GRANT ALL PRIVILEGES ON bankingsystemdb.* TO 'bankadmin'@'localhost';
     FLUSH PRIVILEGES;
-
-3. Use the database:
-    USE bankingsystemdb;
 
 4. Table Creation
     Once you run the main Java file (ConsoleApp.java), it will automatically be created.
